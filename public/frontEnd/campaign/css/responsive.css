@@ -1,0 +1,34 @@
+@media only screen and (min-width:320px) and (max-width:991px){
+.campaign_title {
+    font-size: 38px;
+    margin-top: 25px;
+}
+.cart_details {
+    margin-bottom: 15px;
+}
+.campaign_content {
+    display: block;
+}
+.row.order_by .col-sm-5 {
+    order: 1;
+}
+.qty-cart .quantity {
+    height: 35px;
+}
+.quantity .minus,.quantity .plus {
+    height: 35px;
+    line-height: 35px;
+    width: 20px;
+    font-size: 35px;
+}
+.quantity .plus {
+    font-size: 22px;
+}
+.qty-cart {
+    width: 70px;
+}
+.campaign_offer {
+    font-size: 29px;
+}
+	
+}

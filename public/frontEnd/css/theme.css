@@ -1,0 +1,111 @@
+@import url('satoshi.css');
+/*bc8b57*/
+:root {
+    --base-skin-alpha: #F6F1EAEB;
+    --base-skin: rgb(95, 39, 205);
+    --base-skin-deep: rgb(52, 31, 151);
+    --body-color: #2b2826;
+    --base-white: #ffffff;
+    --base-red: #d63031;
+    --base-light: #f8f9fa;
+    --base-border: #dee2e6;
+    --base-border-dark: #777777;
+    --base-header-bg: #6c5ce7;
+    --alpha: rgba(0, 0, 0, 0.3);
+    --bg-primary: #dfe6e9;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Satoshi-LightItalic', sans-serif;
+}
+
+@media(min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.radius-sm {
+    border-radius: 10px !important;
+}
+
+.radius {
+    border-radius: 15px !important;
+}
+
+.radius-lg {
+    border-radius: 20px !important;
+}
+
+.radius-xl {
+    border-radius: 25px !important;
+}
+
+.radius-xxl {
+    border-radius: 30px !important;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+[class*="btn-"] {
+    border-radius: 20px !important;
+}
+
+.text-theme {
+    color: var(--base-skin);
+}
+
+.text-theme:hover {
+    color: var(--base-skin-deep);
+}
+
+.fz-12 {
+    font-size: 12px !important;
+}
+
+.fz-25 {
+    font-size: 25px !important;
+}
+
+.fz-36 {
+    font-size: 36px !important;
+}
+
+.bg-theme {
+    background-color: var(--base-skin);
+}
+
+.bg-theme-alpha {
+    background-color: var(--base-skin-alpha);
+}
+
+@media(min-width:992px) {
+    .mx-960 {
+        max-width: 960px !important;
+    }
+}
